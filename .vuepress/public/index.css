@@ -1,0 +1,52 @@
+p.description {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+video.lobbybg {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    object-fit: none;
+    display: block;
+    position: absolute;
+    left: 0;
+}
+
+p.tagline {
+    color: white !important;
+    text-shadow: 1px 1px 1px black;
+}
+
+@font-face {
+    font-family:Industry-Book;
+    src: url("font/Industry-Book.ttf");
+}
+
+.banner-brand__content {
+    z-index: 1;
+    mix-blend-mode: difference;
+    font-family: Industry-Book;
+    font-size: 75px;
+}
+
+p.description {
+    /*font-size: 76px !important;*/
+    /*font-weight: bold;*/
+    /*line-height: 70px !important;*/
+    /*width: 950px;*/
+    filter: url(#noise) !important;
+}
+
+h1.description {
+    font-size: 80px !important;
+    font-weight: bold;
+    line-height: 70px !important;
+    color: white;
+    text-shadow: 1px 1px 2px gray, 2px 2px 2px gray;
+    filter: url(#noise) !important;
+}
+
+.banner-brand__wrapper .banner-brand__content {
+    max-width: 1000px !important;
+}
