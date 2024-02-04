@@ -1,6 +1,11 @@
 p.description {
     color: white;
     text-shadow: 1px 1px 1px black;
+    filter: url(#noise) !important;
+}
+
+section.banner-brand__wrapper {
+    overflow: hidden;
 }
 
 video.lobbybg {
@@ -30,12 +35,8 @@ p.tagline {
     font-size: 75px;
 }
 
-p.description {
-    /*font-size: 76px !important;*/
-    /*font-weight: bold;*/
-    /*line-height: 70px !important;*/
-    /*width: 950px;*/
-    filter: url(#noise) !important;
+.banner-brand__wrapper .banner-brand__content {
+    max-width: 1000px !important;
 }
 
 h1.description {
@@ -45,8 +46,4 @@ h1.description {
     color: white;
     text-shadow: 1px 1px 2px gray, 2px 2px 2px gray;
     filter: url(#noise) !important;
-}
-
-.banner-brand__wrapper .banner-brand__content {
-    max-width: 1000px !important;
 }

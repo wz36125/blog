@@ -1,10 +1,16 @@
 import {defineUserConfig} from "vuepress";
 import recoTheme from "vuepress-theme-reco";
+import {sitemapPlugin} from "vuepress-plugin-sitemap2";
 
 export default defineUserConfig({
     head: [['link', {rel: 'icon', href: '/image/logo.gif'}]],
     title: "是JK哟",
     description: "JUST DO IT.",
+    plugins: [
+        sitemapPlugin({
+            hostname: "https://wz36125.gitee.io"
+        })
+    ],
     theme: recoTheme({
         style: "@vuepress-reco/style-default",
         logo: "/image/logo.gif",
@@ -12,12 +18,13 @@ export default defineUserConfig({
         // authorAvatar: "/head.png",
         authorAvatar: "/image/logo.gif",
         algolia: {
-            appId: 'AYUJXIKVMO',
-            apiKey: 'eb431b7d090284bfd2ecdce7661c1ef5',
-            indexName: 'jkblog',
-            inputSelector: '### REPLACE ME ####',
-            algoliaOptions: { 'facetFilters': ["lang:$LANG"] },
-            debug: false // Set debug to true if you want to inspect the dropdown
+            appId: "68LSMDC1AE",
+            apiKey: "a651ee28b2bbd19287de375df6e65750",
+            indexName: "wz36125-gitee",
+            insights: true,
+            placeholder: "请输入关键词",
+            buttonText: "搜索",
+            algoliaOptions: {'facetFilters': ["lang:$LANG"]},
         },
         docsRepo: "https://gitee.com/wz36125/wz36125",
         docsBranch: "main",
