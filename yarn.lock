@@ -3002,6 +3002,11 @@ gray-matter@^4.0.3:
     section-matter "^1.0.0"
     strip-bom-string "^1.0.0"
 
+gsap@^3.12.5:
+  version "3.12.5"
+  resolved "https://registry.npmmirror.com/gsap/-/gsap-3.12.5.tgz"
+  integrity sha512-srBfnk4n+Oe/ZnMIOXt3gT605BX9x5+rh/prT2F1SsNJsU1XuMiP0E2aptW481OnonOGACZWBqseH5Z7csHxhQ==
+
 hanabi@^0.4.0:
   version "0.4.0"
   resolved "https://registry.npmmirror.com/hanabi/-/hanabi-0.4.0.tgz"

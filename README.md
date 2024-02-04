@@ -18,10 +18,10 @@ modules:
 #    height: 93vh
 bannerBrand:
 #  bgImage: '/bg.svg'
-  bgMP4: "http://engjk.top/bg.mp4"
-  bgImageStyle:
-    height: 1000px
-    width: 100vw
+  bgMP4: "https://cdn.jsdelivr.net/gh/wz36125/CDN@1.1/media/bg.mp4"
+#  bgImageStyle:
+#    height: 1000px
+#    width: 100vw
   title:
   description: LIVE IN THE PRESENT<br/> ALWAYS MOVE FORWARD
   tagline: 
