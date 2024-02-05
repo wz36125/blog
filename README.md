@@ -18,7 +18,7 @@ modules:
 #    height: 93vh
 bannerBrand:
 #  bgImage: '/bg.svg'
-  bgMP4: "https://cdn.jsdelivr.net/gh/wz36125/CDN@1.1/media/bg.mp4"
+  bgMP4: "https://blog-1252654759.cos.ap-chongqing.myqcloud.com/bg.b"
 #  bgImageStyle:
 #    height: 1000px
 #    width: 100vw
